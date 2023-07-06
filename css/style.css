@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    padding: 12px;
+    background-color: #424141;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;   
+  
+}
+.logo{
+    
+}
+.logo-1{
+    width: 100px;
+}
+.menu{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-item{
+  list-style:none; 
+  margin-right: 10px;
+  
+
+}
+.menu-item:hover{
+    color: blue;
+}
+.logo-banner{
+   
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/background.png"),
+    linear-gradient(45deg, #080808, #524a4a);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 10px;
+
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.pera{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+/* This is about section */
+
+.about-img{
+    width: 280px;
+}
+.title-about{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+    height: 100vh;
+}
+.about{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.heading{
+    font-size: 22px;
+    font-weight: bold;
+}
+.pera-about{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*This is the service box section*/
+
+.box-icon{
+    width: 70px;
+
+}
+
+
+.service-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+     padding: 20px;
+     color: white;
+}
+.box{
+    background-color: black;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 5px;
+}
+.box-title{
+    padding: 5px;
+}
+.description{
+   margin: 15px;
+   font-size: 13px;
+
+}
+#disk{
+    color: red;
+}
+.box-btn{
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    border: none;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+    background-image: url(../images/background.png),
+    linear-gradient(45deg, #201e1e, #0f0e0e);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section{
+    /*background-color: rgba(25, 26, 25, 0.267);*/
+    background-image: url(../images/background.png),
+    linear-gradient(45deg, #201e1e, #0f0e0e);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/*starting footer*/
+
+.foot-logo{
+    width: 100px;
+}
+
+.depo{
+    font-size: 12px;
+}
+.list{
+    list-style: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 20px;
+}
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    /*height: 100vh; */
+    padding: 20px;
+    color: white;
+    background-image: url(../images/background.png),
+    linear-gradient(45deg, #141313, #141313);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.foot-title{
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+.last-foot{
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    color:white;
+    
+    
+}
+
+.main-foot{
+    background-image: url(../images/background.png),
+    linear-gradient(45deg, #000, #000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.foot-geek{
+    padding: 10px;
+    margin: 10px;
+}
